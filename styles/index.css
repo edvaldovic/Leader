@@ -95,7 +95,6 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   max-width: 548px;
-  height: 132px;
   padding: 0;
   margin: 0;
 }
@@ -139,17 +138,14 @@
   flex-wrap: wrap;
   height: auto;
   background: #FFFFFF;
-  margin: 0 auto;
+  margin: 108px auto 0 auto;
 }
 
 .container2__first {
   display: flex;
-  flex-wrap: wrap;
-  align-content: stretch;
-  max-width: 1252px;
-  width: 100%;
-  height: 590px;
-  margin: 0 auto;
+  justify-content: space-between;
+  margin: 0 165px;
+  width: calc(100% - 330px);
 }
 
 .heading__second {
@@ -162,7 +158,7 @@
   height: 86px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  margin: 108px 118px 50px 0;
+  margin: 0;
   color: #000000;
 }
 
@@ -173,6 +169,7 @@
   width: 539px;
   height: 98px;
   color: #000000;
+  margin-top: 50px;
 }
 
 .container2__button {
@@ -201,7 +198,6 @@
 }
 
 .container2__common {
-  margin-top: 108px;
   width: 285px;
   height: 514px;
 }
