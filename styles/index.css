@@ -88,7 +88,7 @@
 }
 
 .heading {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: 800;
   font-size: 60px;
   line-height: 72px;
@@ -102,6 +102,7 @@
 
 .main__text {
   font-family: 'Open Sans';
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   width: 548px;
@@ -171,6 +172,7 @@
 
 .second__text {
   font-family: 'Open Sans';
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   width: 539px;
@@ -224,6 +226,7 @@
 
 .second__text__communis {
   font-family: 'Open Sans';
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   color: #000000;
@@ -255,6 +258,7 @@
 
 .third__text {
   font-family: 'Open Sans';
+  font-weight: 500;
   font-size: 16px;
   line-height: 28px;
   width: 536.85px;
