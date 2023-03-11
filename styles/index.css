@@ -193,6 +193,11 @@
   border-radius: 5px;
   color: #FF2D2D;
   margin-top: 78px;
+  cursor: pointer;
+}
+
+.second__button:hover {
+  background: rgb(179, 179, 179);
 }
 
 .png {
