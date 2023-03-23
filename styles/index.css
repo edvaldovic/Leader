@@ -322,6 +322,10 @@
   padding-bottom: 20px;
 }
 
+.four__container {
+  max-width: 1022px;
+}
+
 .four__left {
   width: 100%;
   text-align: left;
@@ -358,7 +362,6 @@
   margin-left: 0px;
   margin-top: 34px;
   border-radius: 2px;
-
 }
 
 .four__box {
@@ -413,7 +416,7 @@
 
 .four__photo__chief {
   flex-shrink: 0;
-  height: 440px;
+  height: 462px;
   width: 300px;
   margin-right: 60px;
   grid-column: 1 / 2;
@@ -422,7 +425,7 @@
   object-fit: cover;
 }
 
-@supports (display: grid; ) and (display: contents; ) {
+@supports (display: grid) and (display: contents) {
   .four__box {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -450,6 +453,7 @@
   letter-spacing: 0.9px;
   color: #000000;
   text-decoration: none;
+  margin-top: 30px;
   margin-right: 30px;
 }
 
@@ -483,7 +487,7 @@
   color: #FFFFFF;
   position: absolute;
   bottom: 0;
-  margin: 0;
+  margin: 0 auto;
   height: 38px;
   background-color: #000000;
   opacity: 0.5;
