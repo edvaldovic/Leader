@@ -321,7 +321,7 @@
   width: calc(100% - 280px);
   background: #FFFFFF;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 200px;
 }
 
 .four__common {
@@ -329,8 +329,6 @@
   height: 706px;
   margin: 0 auto;
 }
-
-
 
 .four__left {
   width: 100%;
@@ -502,4 +500,96 @@
 
 .four__photo:hover>.four__worker__name {
   visibility: visible;
+}
+
+.five {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  background: #2D2D2D;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+}
+
+.five__box__text {
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.five__heading {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 24px;
+  letter-spacing: 1.05px;
+  color: #FFFFFF;
+  max-width: 1129px;
+  margin: 0 auto;
+}
+
+.five__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #FFFFFF;
+  width: 574px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.five__form {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.five__input {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  color: #2C2C2C;
+  width: 524px;
+  height: 82px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FFFFFF;
+  padding-left: 38px;
+}
+
+.five__button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  width: 217px;
+  height: 82px;
+  background: #FF2D2D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+.five__button:hover {
+  opacity: 0.7;
 }
