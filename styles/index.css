@@ -61,12 +61,13 @@
   width: calc(100% - 280px);
   gap: 60px;
   background: #F6F2F2;
+  padding-bottom: 100px;
 }
 
 .content__video {
   width: 541px;
   height: 356px;
-  margin-bottom: 220px;
+
 }
 
 .content__main__text {
@@ -116,7 +117,7 @@
   letter-spacing: 0.4px;
   transition: .3s;
   margin-top: 30px;
-  margin-bottom: 220px;
+
 }
 
 .content__button:hover {
@@ -201,7 +202,7 @@
   height: 514px;
 }
 
-.second__heading text {
+.second__heading__text {
   font-family: 'Open Sans';
   font-weight: 700;
   font-size: 24px;
@@ -322,6 +323,14 @@
   padding-top: 40px;
   padding-bottom: 20px;
 }
+
+.four__common {
+  width: 1052px;
+  height: 706px;
+  margin: 0 auto;
+}
+
+
 
 .four__left {
   width: 100%;
