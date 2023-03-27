@@ -305,6 +305,7 @@
   flex-wrap: wrap;
   width: 1080px;
   height: 550px;
+  list-style-type: none;
 }
 
 .image {
