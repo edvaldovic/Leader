@@ -5,7 +5,7 @@
   background: #FFFFFF;
 }
 
-.home__content {
+.home__one {
   background: #F6F2F2;
   padding-top: 30px;
 }
@@ -59,7 +59,7 @@
   height: 100%;
 }
 
-.content {
+.one {
   display: flex;
   justify-content: center;
   margin: 0 140px 0 140px;
@@ -69,13 +69,13 @@
   padding-bottom: 100px;
 }
 
-.content__video {
+.one__video {
   width: 541px;
   height: 356px;
 
 }
 
-.content__main__text {
+.one__main__text {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -106,7 +106,7 @@
   margin-top: 30px;
 }
 
-.content__button {
+.one__button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -125,7 +125,7 @@
 
 }
 
-.content__button:hover {
+.one__button:hover {
   opacity: .7;
 }
 
