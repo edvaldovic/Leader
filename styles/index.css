@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 .root {
-  margin-bottom: 500px;
   background: #FFFFFF;
 }
 
@@ -615,6 +614,7 @@
   max-width: 100%;
   padding-left: 125px;
   padding-top: 70px;
+  padding-bottom: 108px;
   margin: 0 auto;
 }
 
