@@ -4,7 +4,7 @@
   background: #FFFFFF;
 }
 
-/* 1 секция */
+/* хедер */
 
 .home__one {
   background: #F6F2F2;
@@ -59,6 +59,8 @@
   background: #FF3F40;
   height: 100%;
 }
+
+/* 1секция */
 
 .one {
   display: flex;
@@ -130,7 +132,7 @@
   opacity: .7;
 }
 
-/* 2 ctrwbz */
+/* 2 cekция */
 
 .second {
   display: flex;
@@ -231,6 +233,8 @@
   margin-bottom: 50px;
 }
 
+/* 3 секция */
+
 .third__section {
   display: flex;
   flex-direction: column;
@@ -322,6 +326,8 @@
   cursor: pointer;
   transform: scale(1.2);
 }
+
+/* 4сеция */
 
 .section__four {
   margin: 0 auto;
@@ -515,6 +521,8 @@
   visibility: visible;
 }
 
+/* 5 секция */
+
 .five {
   box-sizing: border-box;
   display: block;
@@ -607,6 +615,8 @@
 .five__button:hover {
   opacity: 0.7;
 }
+
+/* 6 секция */
 
 .six {
   display: flex;
@@ -771,6 +781,8 @@
   position: absolute;
   padding: 316px 313px 150px 80px;
 }
+
+/* футер */
 
 .footer {
   display: flex;
