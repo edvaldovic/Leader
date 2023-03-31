@@ -152,6 +152,8 @@
 
 .second__content {
   display: flex;
+  align-items: center;
+  justify-content: center;
   max-width: 1252px;
   height: 588px;
   background: #FFFFFF;
@@ -194,7 +196,7 @@
   border: 2px solid #FF0000;
   border-radius: 5px;
   color: #FF2D2D;
-  margin-top: 78px;
+  margin-top: 62px;
   cursor: pointer;
 }
 
@@ -202,14 +204,22 @@
   background: rgb(179, 179, 179);
 }
 
-.png {
-  width: 37px;
-  height: 37px;
+.second__right {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  width: 614px;
+  height: 388px;
 }
 
 .second__common {
   width: 305px;
-  height: 514px;
+  height: 238px;
+}
+
+.png {
+  width: 37px;
+  height: 37px;
 }
 
 .second__heading__text {
