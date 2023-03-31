@@ -825,6 +825,11 @@
   margin-right: 18px;
 }
 
+.footer__igp {
+  height: 33px;
+  width: 33px;
+}
+
 .footer__communis {
   display: flex;
   align-items: center;
