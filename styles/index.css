@@ -1353,6 +1353,19 @@
     width: calc(100% - 80px);
     background: #FFFFFF;
   }
+
+  .second__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    height: 800px;
+    background: #FFFFFF;
+    padding-top: 100px;
+    margin: 0;
+  }
+
 }
 
 @media screen and (max-width: 766px) {
@@ -1511,7 +1524,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 54px;
-    max-width: 2800px;
+    width: 280px;
     text-transform: uppercase;
     margin: 0;
     color: #000000;
@@ -1523,7 +1536,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
-    max-width: 2800px;
+    width: 280px;
     color: #000000;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -1612,12 +1625,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 30px 0 30px;
+    margin: 0 40px 0 40px;
     width: calc(100% - 80px);
     align-items: center;
-    height: 982px;
     background: #FFFFFF;
-    padding-top: 140px;
+    padding-top: 286px;
     padding-bottom: 140px;
   }
 
@@ -1637,8 +1649,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 718px;
-    height: 550px;
+    width: 440px;
+    height: 776px;
     list-style-type: none;
   }
 
@@ -1664,7 +1676,6 @@
     margin: 0 10px 0 10px;
     width: calc(100% - 20px);
     align-items: center;
-    height: 1306px;
     background: #FFFFFF;
   }
 
@@ -1785,5 +1796,205 @@
   .image:hover {
     cursor: pointer;
     transform: scale(1.2);
+  }
+}
+
+/* медиа 4 секция */
+
+@media screen and (max-width: 1365px) {
+
+  .section__four {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin: 0 100px 0 100px;
+    width: calc(100% - 200px);
+    background: #FFFFFF;
+    padding-top: 40px;
+    padding-bottom: 200px;
+  }
+
+  .four__common {
+    width: 807px;
+    height: 1300px;
+    margin: 0 auto;
+  }
+
+  .four__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: stretch;
+    min-height: 462px;
+  }
+
+  .four__info__right {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section__four {
+    margin: 0 40px 0 40px;
+    width: calc(100% - 80px);
+  }
+
+  .four__photo__chief {
+    height: 320px;
+    width: 230px;
+    object-fit: cover;
+  }
+
+  .four__link {
+    padding-right: 20px;
+  }
+
+  .four__photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    list-style-type: none;
+    width: 670px;
+    height: 222px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .four__left {
+    width: 670px;
+  }
+
+  .four__common {
+    width: 670px;
+  }
+
+  .four__photo__worker {
+    display: flex;
+    height: 220px;
+    width: 130px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__four {
+    margin: 0 10px 0 10px;
+    width: calc(100% - 20px);
+  }
+
+  .four__photo__chief {
+    margin: 0 auto;
+  }
+
+  .four__chief__name {
+    margin: 0 auto;
+  }
+
+  .four__text__right {
+    width: 380px;
+    text-align: center;
+  }
+
+  .four__info__right {
+    margin-top: 30px;
+  }
+
+  .four__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 280px;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .four__text__right {
+    width: 380px;
+    text-align: center;
+  }
+
+  .four__line {
+    margin: 0 auto;
+  }
+
+  .four__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .four__photos {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .four__photo__worker {
+    width: 130px;
+    height: 200px;
+  }
+
+  .four__common {
+    width: 380px;
+  }
+
+  .four__left {
+    width: 380px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .section__four {
+    margin: 0 10px 0 10px;
+    width: calc(100% - 20px);
+    height: 1800px;
+  }
+
+  .four__text__right {
+    width: 280px;
+    text-align: center;
+  }
+
+  .four__photos {
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .four__photo__worker {
+    width: 200px;
+    height: 200px;
+  }
+
+  .four__common {
+    width: 280px;
+  }
+
+  .four__left {
+    width: 280px;
+  }
+
+  .four__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    text-align: center;
+  }
+
+  .four__text {
+    width: 280px;
+    text-align: center;
+  }
+
+  .four__text__right {
+    width: 280px;
+    text-align: center;
+  }
+
+  .four__photo__chief {
+    width: 280px;
   }
 }
