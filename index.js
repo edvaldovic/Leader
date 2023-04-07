@@ -22,3 +22,8 @@ burgerMenu.addEventListener('click', () => {
   togglburgerPopup();
 });
 
+
+burgerPopup.addEventListener('click', () => {
+  togglburgerPopup();
+  togglburgerMenu();
+})
