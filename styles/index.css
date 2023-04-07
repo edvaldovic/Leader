@@ -11,6 +11,7 @@
 .home__one {
   background: #F6F2F2;
   padding-top: 30px;
+  width: 100%;
 }
 
 .header {
@@ -69,7 +70,6 @@
   justify-content: center;
   margin: 0 140px 0 140px;
   width: calc(100% - 280px);
-  gap: 60px;
   background: #F6F2F2;
   padding-bottom: 100px;
 }
@@ -77,6 +77,7 @@
 .one__video {
   width: 541px;
   height: 356px;
+  margin-left: 60px;
 }
 
 .one__main__text {
@@ -529,7 +530,7 @@
   position: absolute;
   bottom: 0;
   margin: 0 auto;
-  width: 160px;
+  width: 100%;
   height: 38px;
   background-color: #000000;
   opacity: 0.5;
@@ -641,7 +642,6 @@
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  padding-left: 125px;
   padding-top: 70px;
   padding-bottom: 108px;
   margin: 0 auto;
@@ -682,6 +682,7 @@
 .six__box__left {
   max-width: 690px;
   margin-top: 72px;
+  margin-left: 125px;
 }
 
 .six__form {
@@ -805,19 +806,10 @@
 .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   min-height: 113px;
   background: #313030;
-}
-
-.footer__box {
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  margin: 0 100px 0 100px;
-  width: calc(100% - 200px);
-  min-height: 113px;
 }
 
 .footer__text {
@@ -828,13 +820,14 @@
   line-height: 26px;
   color: #B8B8B8;
   padding-top: 40px;
+  margin-left: 125px;
 }
 
 .footer__links {
   display: flex;
   padding-top: 40px;
-  width: 476px;
   list-style-type: none;
+  margin-right: 125px;
 }
 
 .footer__link {
@@ -844,13 +837,6 @@
 .footer__igp {
   height: 33px;
   width: 33px;
-}
-
-.footer__communis {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1440px;
 }
 
 /* медиа 1 секция */
