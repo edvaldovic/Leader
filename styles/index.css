@@ -103,6 +103,8 @@
 }
 
 .burger__popup {
+  position: fixed;
+  z-index: 5;
   display: none;
 }
 
@@ -511,6 +513,11 @@
 .four__photo {
   position: relative;
   margin-top: 34px;
+  z-index: 1;
+}
+
+.four__photo:hover>.four__worker__name {
+  visibility: visible;
 }
 
 .four__photo:not(:last-child) {
@@ -739,6 +746,7 @@
   margin-top: 298px;
   margin-left: 104px;
   position: relative;
+  z-index: 1;
 }
 
 .six__right__heading {
@@ -1011,7 +1019,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    z-index: 4;
+    z-index: 6;
     gap: 4px;
     margin-top: 6px;
     position: fixed;
@@ -1070,6 +1078,7 @@
     border-radius: 8px;
     transform: translateY(-400px);
     transition: .3s;
+    z-index: 5;
   }
 
   .burger__popup__opened {
