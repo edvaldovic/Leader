@@ -163,7 +163,6 @@
   max-width: 1252px;
   height: 588px;
   background: #FFFFFF;
-  padding-top: 100px;
 }
 
 .second__heading {
@@ -354,7 +353,6 @@
   margin: 0 140px 0 140px;
   width: calc(100% - 280px);
   background: #FFFFFF;
-  padding-top: 40px;
   padding-bottom: 200px;
 }
 
@@ -640,7 +638,6 @@
   justify-content: center;
   align-items: center;
   max-width: 100%;
-  padding-top: 70px;
   padding-bottom: 108px;
   padding-left: 125px;
 }
