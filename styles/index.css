@@ -222,7 +222,7 @@
   height: 238px;
 }
 
-.second__common__two {
+.second__common {
   width: 305px;
   height: 238px;
 }
@@ -344,6 +344,7 @@
 .image:hover {
   cursor: pointer;
   transform: scale(1.2);
+  transition: transform 1.05s ease-in-out;
 }
 
 /* 4сеция */
