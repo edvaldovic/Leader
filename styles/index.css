@@ -515,10 +515,6 @@
   z-index: 1;
 }
 
-.four__photo:hover>.four__worker__name {
-  visibility: visible;
-}
-
 .four__photo:not(:last-child) {
   margin-right: 16px;
 }
