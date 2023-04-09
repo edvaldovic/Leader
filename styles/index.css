@@ -203,6 +203,7 @@
   color: #FF2D2D;
   margin-top: 62px;
   cursor: pointer;
+  transition: .3s;
 }
 
 .second__button:hover {
@@ -318,6 +319,7 @@
   color: #000000;
   text-decoration: none;
   margin: 0 auto;
+  transition: .3s;
 }
 
 .third__link:hover {
@@ -507,6 +509,7 @@
   grid-row: 2 / 3;
   cursor: pointer;
   list-style-type: none;
+  z-index: 1;
 }
 
 .four__photo {
