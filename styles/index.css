@@ -65,14 +65,11 @@
   height: 100%;
 }
 
-.hamburger {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
+.burger {
+  display: none;
 }
 
-.burger {
+.burger__popup {
   display: none;
 }
 
@@ -1027,6 +1024,7 @@
     gap: 4px;
     margin-top: 6px;
     cursor: pointer;
+    position: fixed;
     transition: .3s;
   }
 
