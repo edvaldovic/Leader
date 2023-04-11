@@ -12,6 +12,7 @@
   background: #F6F2F2;
   padding-top: 30px;
   width: 100%;
+
 }
 
 .header {
@@ -25,6 +26,8 @@
   background: #000000;
   opacity: 0.8;
   border: 1px solid #000000;
+  position: relative;
+  z-index: 5;
 }
 
 .header__list {
@@ -61,6 +64,17 @@
 .link__text:hover {
   background: #FF3F40;
   height: 100%;
+}
+
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.burger {
+  display: none;
 }
 
 /* 1секция */
@@ -100,10 +114,6 @@
   max-width: 514px;
   padding: 0;
   margin: 0;
-}
-
-.burger__popup {
-  display: none;
 }
 
 .main__text {
