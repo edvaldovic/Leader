@@ -418,7 +418,6 @@
 }
 
 .four__info__right {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-self: start;
@@ -509,13 +508,11 @@
   grid-row: 2 / 3;
   cursor: pointer;
   list-style-type: none;
-  z-index: 1;
 }
 
 .four__photo {
   position: relative;
   margin-top: 34px;
-  z-index: 1;
 }
 
 .four__photo:not(:last-child) {
@@ -744,7 +741,7 @@
   margin-top: 298px;
   margin-left: 104px;
   position: relative;
-  z-index: 1;
+  z-index: -1;
 }
 
 .six__right__heading {
@@ -760,7 +757,7 @@
   letter-spacing: 0.4px;
   text-transform: uppercase;
   position: absolute;
-  padding: 120px 310px 310px 80px;
+  padding: 88px 310px 310px 80px;
 }
 
 .six__right__text {
@@ -773,7 +770,7 @@
   width: 318px;
   height: 45px;
   position: absolute;
-  padding: 166px 184px 244px 80px;
+  padding: 142px 62px 244px 80px;
 }
 
 .right__text {
@@ -786,7 +783,7 @@
   width: 221px;
   height: 45px;
   position: absolute;
-  padding: 268px 276px 176px 80px;
+  padding: 204px 134px 176px 80px;
 }
 
 .six__number {
@@ -798,7 +795,7 @@
   color: #FFFFFF;
   width: 179px;
   position: absolute;
-  padding: 316px 313px 150px 80px;
+  padding: 256px 176px 150px 80px;
 }
 
 /* футер */
@@ -1020,7 +1017,6 @@
     z-index: 6;
     gap: 4px;
     margin-top: 6px;
-    position: fixed;
     cursor: pointer;
     transition: .3s;
   }
