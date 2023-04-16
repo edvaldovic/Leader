@@ -22,7 +22,7 @@ const puerShen = document.querySelectorAll('.shen');
 const buttonPao = document.querySelector('.button__pao');
 const hunPao = document.querySelectorAll('.pao');
 const buttonYin = document.querySelector('.button__yin');
-const guanYin = document.querySelector('.yin')
+const guanYin = document.querySelectorAll('.yin')
 
 
 
