@@ -14,6 +14,7 @@ const contactLinkBurger = document.querySelector('.link__contact__burger');
 const contactSection = document.querySelector('#contact');
 const homeLinkBurger = document.querySelector('.link__home__burger');
 const homeSectionBurger = document.querySelector('#home');
+const buttonWhole = document.querySelector('.button');
 const buttonShu = document.querySelector('.button__shu');
 const puerShu = document.querySelectorAll('.shu');
 const whole = document.querySelectorAll('.image');
@@ -50,59 +51,156 @@ burgerPopup.addEventListener('click', () => {
 });
 
 
-function toggleClosePhoto() {
-  whole.forEach((item) => item.classList.toggle('shu'))
+
+function addWholeClose() {
+  whole.forEach((item) => item.classList.remove('close'))
 }
 
-function toggleOpenPhoto() {
-  puerShu.forEach((item) => item.classList.toggle('open'))
+function removeWholeShu() {
+  puerShu.forEach((item) => item.classList.remove('open'))
+}
+
+function removeWholeShen() {
+  puerShen.forEach((item) => item.classList.remove('open'))
+}
+
+function removeWholePao() {
+  hunPao.forEach((item) => item.classList.remove('open'))
+}
+
+function removeWholeYin() {
+  guanYin.forEach((item) => item.classList.remove('open'))
+}
+
+buttonWhole.addEventListener('click', () => {
+  removeWholeYin();
+  removeWholePao();
+  removeWholeShen();
+  removeWholeShu();
+  addWholeClose();
+});
+
+
+function addClosePhoto() {
+  whole.forEach((item) => item.classList.add('close'))
+}
+
+function addOpenPhoto() {
+  puerShu.forEach((item) => item.classList.add('open'))
+}
+
+function removePhotoShu() {
+  puerShen.forEach((item) => item.classList.remove('open'))
+}
+
+function removePhoto() {
+  puerShen.forEach((item) => item.classList.remove('close'))
+}
+
+function removePhotoYin() {
+  guanYin.forEach((item) => item.classList.remove('open'))
 }
 
 buttonShu.addEventListener('click', () => {
-  toggleClosePhoto();
-  toggleOpenPhoto();
+  addClosePhoto();
+  addOpenPhoto();
+  removePhoto();
+  removePhotoShu();
+  removePhotoYin();
 });
 
 
-function ClosePhotoShen() {
-  whole.forEach((item) => item.classList.toggle('shen'))
+function ClosePhoto() {
+  whole.forEach((item) => item.classList.add('close'))
 }
 
-function toggleOpenPhotoShen() {
-  puerShen.forEach((item) => item.classList.toggle('open'))
+function removePhotoShen() {
+  puerShu.forEach((item) => item.classList.remove('open'))
+}
+
+function removePhoto() {
+  hunPao.forEach((item) => item.classList.remove('open'))
+}
+
+function removeOpenPhotoYin() {
+  guanYin.forEach((item) => item.classList.remove('open'))
+}
+
+function closePhotoShen() {
+  puerShu.forEach((item) => item.classList.add('close'))
+}
+
+function openPhotoShen() {
+  puerShen.forEach((item) => item.classList.add('open'))
 }
 
 buttonShen.addEventListener('click', () => {
-  ClosePhotoShen();
-  toggleOpenPhotoShen();
+  openPhotoShen();
+  closePhotoShen();
+  removePhotoShen();
+  removePhoto();
+  ClosePhoto();
+  removeOpenPhotoYin();
 });
 
 
+
 function toggleClosePhotoPao() {
-  whole.forEach((item) => item.classList.toggle('pao'))
+  whole.forEach((item) => item.classList.add('close'))
 }
 
-function toggleOpenPhotoPao() {
-  hunPao.forEach((item) => item.classList.toggle('open'))
+function addOpenPhotoPao() {
+  hunPao.forEach((item) => item.classList.add('open'))
+}
+
+function remuvePhotoShen() {
+  puerShen.forEach((item) => item.classList.remove('open'))
+}
+
+function remuvePhotoShu() {
+  puerShu.forEach((item) => item.classList.remove('open'))
+}
+
+function removeYin() {
+  guanYin.forEach((item) => item.classList.remove('open'))
 }
 
 buttonPao.addEventListener('click', () => {
   toggleClosePhotoPao();
-  toggleOpenPhotoPao();
+  addOpenPhotoPao();
+  remuvePhotoShen();
+  remuvePhotoShu();
+  removeYin();
 });
 
 
-function toggleClosePhotoYin() {
-  whole.forEach((item) => item.classList.toggle('yin'))
+
+function addClosePhotoYin() {
+  whole.forEach((item) => item.classList.add('close'))
 }
 
-function toggleOpenPhotoYin() {
-  guanYin.forEach((item) => item.classList.toggle('open'))
+function removeShen() {
+  puerShen.forEach((item) => item.classList.remove('open'))
+}
+
+function removePao() {
+  hunPao.forEach((item) => item.classList.remove('open'))
+}
+
+function removeShu() {
+  puerShu.forEach((item) => item.classList.remove('open'))
+}
+
+function addOpenPhotoYin() {
+  guanYin.forEach((item) => item.classList.add('open'))
 }
 
 buttonYin.addEventListener('click', () => {
-  toggleClosePhotoYin();
-  toggleOpenPhotoYin();
+  addClosePhotoYin();
+  addOpenPhotoYin();
+  removeShen();
+  removePao();
+  removeShu();
 });
 
 
