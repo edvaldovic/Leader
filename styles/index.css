@@ -229,9 +229,88 @@
   height: 238px;
 }
 
-.png {
+.img__wheel {
   width: 37px;
   height: 37px;
+  animation-name: rotation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.img__kar {
+  width: 37px;
+  height: 37px;
+  animation-name: pencil;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pencil {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-40deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.img__ruby {
+  width: 37px;
+  height: 37px;
+  animation-name: rubin;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rubin {
+  0% {
+    transform: rotatey(0deg);
+  }
+
+  100% {
+    transform: rotatey(360deg);
+  }
+}
+
+.img__trans {
+  width: 37px;
+  height: 37px;
+  animation-name: trans;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes trans {
+  0% {
+    transform: translate(0px);
+  }
+
+  50% {
+    transform: translate(30px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
 }
 
 .second__heading__text {
