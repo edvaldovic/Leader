@@ -52,7 +52,7 @@ burgerPopup.addEventListener('click', () => {
 
 
 
-function addWholeClose() {
+function removeWholeClose() {
   whole.forEach((item) => item.classList.remove('close'))
 }
 
@@ -77,7 +77,7 @@ buttonWhole.addEventListener('click', () => {
   removeWholePao();
   removeWholeShen();
   removeWholeShu();
-  addWholeClose();
+  removeWholeClose();
 });
 
 
