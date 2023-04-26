@@ -2342,10 +2342,26 @@
     display: flex;
     align-items: center;
     width: 690px;
-    height: 272px;
+    height: 332px;
     background: #2D2D2D;
     position: relative;
     margin: 0;
+  }
+
+  .six__right__heading {
+    padding: 43px 310px 254px 270px;
+  }
+
+  .six__right__text {
+    padding: 116px 0px 180px 208px;
+  }
+
+  .right__text {
+    padding: 170px 58px 90px 248px;
+  }
+
+  .six__number {
+    padding: 172px 38px 20px 266px;
   }
 }
 
@@ -2396,56 +2412,18 @@
   }
 
   .six__right__heading {
-    font-family: 'Open Sans';
-    box-sizing: border-box;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 34px;
-    color: #FFFFFF;
-    white-space: nowrap;
-    width: 315px;
-    letter-spacing: 0.4px;
-    text-transform: uppercase;
-    position: absolute;
     padding: 12px 83px 300px 38px;
   }
 
   .six__right__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
-    width: 318px;
-    height: 45px;
-    position: absolute;
     padding: 166px 0px 246px 87px;
   }
 
   .right__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
-    width: 221px;
-    height: 45px;
-    position: absolute;
     padding: 268px 71px 176px 59px;
   }
 
   .six__number {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #FFFFFF;
-    width: 179px;
-    position: absolute;
     padding: 316px 111px 150px 54px;
   }
 }
@@ -2497,7 +2475,7 @@
     letter-spacing: 0.4px;
     text-transform: uppercase;
     position: absolute;
-    padding: 12px 212px 300px 90px;
+    padding: 12px 214px 300px 59px;
   }
 
   .six__right__text {
@@ -2510,7 +2488,7 @@
     width: 160px;
     height: 45px;
     position: absolute;
-    padding: 73px 0px 246px 24px;
+    padding: 112px 0px 246px 10px;
   }
 
   .six__box__left {
@@ -2539,7 +2517,7 @@
     width: 160px;
     height: 45px;
     position: absolute;
-    padding: 268px 67px 176px 27px;
+    padding: 268px 48px 176px 27px;
   }
 
   .six__number {
@@ -2551,7 +2529,7 @@
     color: #FFFFFF;
     width: 179px;
     position: absolute;
-    padding: 316px 60px 150px 41px;
+    padding: 316px 16px 150px 41px;
   }
 }
 
