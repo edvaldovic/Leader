@@ -1904,8 +1904,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 300px;
+    width: 280px;
     list-style-type: none;
     padding: 0;
   }
@@ -2112,8 +2111,8 @@
   .section__four {
     margin: 0 10px 0 10px;
     width: calc(100% - 20px);
-    height: 1466px;
-    padding-bottom: 604px;
+    height: 100%;
+    padding-bottom: 852px;
   }
 
   .four__info__right {
@@ -2136,8 +2135,8 @@
   }
 
   .four__photo__worker {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 260px;
   }
 
   .four__common {
