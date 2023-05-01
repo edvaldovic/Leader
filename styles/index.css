@@ -363,7 +363,6 @@
   margin: 0 140px 0 140px;
   width: calc(100% - 280px);
   align-items: center;
-  height: 930px;
   background: #FFFFFF;
   padding-top: 140px;
   padding-bottom: 140px;
@@ -1134,16 +1133,9 @@
 @media screen and (max-width: 767px) {
 
   .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     margin: 0 10px 50px 10px;
     width: calc(100% - 20px);
     min-height: 80px;
-    background: #000000;
-    opacity: 0.8;
-    border: 1px solid #000000;
   }
 
   .header__link {
@@ -1269,13 +1261,6 @@
     padding-bottom: 60px;
   }
 
-  .one__video {
-    display: flex;
-    justify-content: center;
-    max-width: 360px;
-    height: 300px;
-  }
-
   .heading {
     font-family: 'Open Sans';
     font-weight: 800;
@@ -1390,9 +1375,8 @@
     flex-wrap: wrap;
     margin: 0 100px 0 100px;
     width: calc(100% - 200px);
-    height: 900px;
-    background: #FFFFFF;
-    padding-bottom: 70px;
+
+
   }
 
   .second__heading {
