@@ -77,6 +77,7 @@
   max-width: 662px;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  margin-left: 10px;
 }
 
 .four__chief__name {
@@ -88,6 +89,7 @@
   letter-spacing: 0.3px;
   text-transform: uppercase;
   color: #000000;
+  margin-left: 10px;
 }
 
 .four__text__right {
