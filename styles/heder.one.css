@@ -469,7 +469,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 280px;
-    height: 358px;
   }
 
   .heading {
@@ -504,6 +503,7 @@
     width: calc(100% - 20px);
     gap: 10px;
     background: #F6F2F2;
+    height: 100%;
   }
 
   .one__video {

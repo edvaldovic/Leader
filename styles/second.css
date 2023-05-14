@@ -373,7 +373,7 @@
     flex-direction: column;
     margin: 0 auto;
     width: 280px;
-    height: 556px;
+    height: 100%;
   }
 
   .second__heading {
