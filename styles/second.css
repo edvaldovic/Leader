@@ -29,14 +29,13 @@
 }
 
 .second__heading { 
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 55px;
-display: flex;
-align-items: center;
-  letter-spacing: 0.4px;
+ font-family: 'Open Sans';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 42px;
+ line-height: 55px;
+ display: flex;
+ align-items: center;
   text-transform: uppercase;
   margin: 0;
   color: #000000;
@@ -47,7 +46,7 @@ align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  width: 539px;
+  width: 462px;
   color: #000000;
   margin-top: 50px;
 }
