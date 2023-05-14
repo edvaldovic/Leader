@@ -416,6 +416,7 @@ align-items: center;
   .second__content {
     width: 286px;
     height: 100%;
+    padding-top: 50px;
   }
 
   .second__common {

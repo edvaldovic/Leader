@@ -144,8 +144,6 @@
     width: calc(100% - 200px);
     align-items: center;
     background: #FFFFFF;
-    padding-top: 140px;
-    padding-bottom: 140px;
   }
 
   .third__list {
@@ -195,8 +193,6 @@
     width: calc(100% - 80px);
     align-items: center;
     background: #FFFFFF;
-    padding-top: 70px;
-    padding-bottom: 70px;
   }
 
   .third__list {
@@ -326,7 +322,6 @@
     align-items: center;
     height: 100%;
     background: #FFFFFF;
-    margin-top: 76px;
   }
 
   .third__link {
